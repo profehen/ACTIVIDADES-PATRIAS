@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades del Mes de Septiembre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Actividades del Mes de Septiembre</h1>
+    </header>
+
+    <section class="content">
+        <h2>Celebración del Mes Patrio</h2>
+        <p>Durante septiembre, el colegio llevará a cabo diversas actividades en honor a la independencia de Guatemala. Participa y celebra con nosotros.</p>
+
+        <h2>Desfile Escolar</h2>
+        <p>El 15 de septiembre, los estudiantes desfilarán con orgullo representando a su escuela en la Banda Escolar.</p>
+
+        <img src="banda_escolar.jpg" alt="Banda Escolar de Guatemala">
+
+        <h2>Otras Actividades</h2>
+        <ul>
+            <li>Acto Cívico - 14 de septiembre</li>
+            <li>Competencia de Bandas Escolares - 15 de septiembre</li>
+            <li>Feria de la Independencia - 16 de septiembre</li>
+        </ul>
+    </section>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+header {
+    background-color: #1E3A8A; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #8B0000; /* Corinto */
+}
+
+p, ul {
+    color: #333;
+}
+
+footer {
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+    <footer>
+        <p>&copy; 2024 Colegio XYZ - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
